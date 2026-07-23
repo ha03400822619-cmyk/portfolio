@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Husnain — Web developer from Faisalabad, Pakistan. I build landing pages, business websites, ecommerce stores, and portfolios. Available for freelance projects." />
+  <meta property="og:title" content="Husnain — Web Developer & AI Enthusiast" />
+  <meta property="og:description"
+    content="I build clean, fast, mobile-friendly websites for businesses. Landing pages, ecommerce, redesigns & more." />
+  <meta property="og:type" content="website" />
+  <title>Husnain — Web Developer & AI Enthusiast</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://api.web3forms.com;"/>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" as="style" onload="this.rel='stylesheet'">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Husnain",
+    "url": "https://example.com"
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23000'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='14' font-weight='bold' fill='%239F67FF' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- AOS Scroll Animation Library CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!--
+    Apni CSS file link kar rahe hain
+    href="style.css" matlab same folder mein style.css file
+  -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <!-- ─── NAVIGATION ─────────────────────── -->
+  <header>
+  <nav>
+    <div class="nav-logo">H<span>.</span>dev</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger" aria-controls="navLinks" aria-expanded="false" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <button id="lightToggle" class="light-toggle" aria-label="Toggle light mode">🌞</button>
+  </nav>
+</header>
+
+  <!-- ─── HERO ────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+
+    <div class="hero-container">
+      <div class="hero-content">
+
+      <!-- Tag ab neeche se upar aa gaya -->
+      <div class="hero-tag">Available · CS Student · Developer</div>
+
+      <p class="hero-intro">Hi, I'm <strong>Husnain</strong></p>
+
+      <div class="hero-typing-box">
+        I build <span class="typed-word" id="typedWord"></span><span class="cursor"></span>
+      </div>
+      <!-- Bold statement — naam nahi -->
+      <h1 class="hero-name">
+        CODE IS MY<br>
+        <span style="color: var(--accent2);">CRAFT.</span>
+      </h1>
+
+      <p class="hero-sub">
+        I build landing pages, business websites,
+        ecommerce stores, and portfolios —
+        clean, fast, and mobile-friendly.
+        Already have a site? I'll redesign it
+        into something you're proud to share.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Work ↓</a>
+        <a href="#contact" class="btn-outline">Get In Touch →</a>
+      </div>
+
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        scroll to explore
+      </div>
+    </div>
+
+    <!-- Right Side Hacker Terminal -->
+    <div class="hero-terminal" data-aos="fade-left" data-aos-delay="200">
+      <div class="term-header">
+        <span class="term-btn close"></span>
+        <span class="term-btn min"></span>
+        <span class="term-btn max"></span>
+        <div class="term-title">husnain@dev: ~</div>
+      </div>
+      <div class="term-body">
+        <div class="term-line">
+          <span class="prompt">husnain@dev:~$</span> <span class="typing-cmd">npm start</span>
+        </div>
+        <div class="term-output delay-1">
+          > portfolio@1.0.0 start<br>
+          > node server.js
+        </div>
+        <div class="term-output delay-2 success">
+          [OK] Server running on http://localhost:3000<br>
+          [OK] Database connected...
+        </div>
+        <div class="term-line delay-3">
+          <span class="prompt">husnain@dev:~$</span> <span class="typing-cmd-2">initAI --model=awesome</span>
+        </div>
+        <div class="term-output delay-4 warning">
+          Warning: Awesomeness overloaded.
+        </div>
+        <div class="term-line delay-5">
+          <span class="prompt">husnain@dev:~$</span> <span class="cursor-term"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── SERVICES ──────────────────────────── -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div style="text-align:center; margin-bottom: 3rem;">
+        <h2 class="sec-title">How I Can Help Your Business</h2>
+        <p class="sec-sub" style="margin: 0 auto">
+          Tailored web development services driven
+          by clean code and real results.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon">🚀</div>
+          <div class="service-name">High-Converting Landing Pages</div>
+          <p class="service-desc">
+            Perfect for gym trainers, doctors, and businesses
+            looking to convert social media traffic into real
+            leads via WhatsApp or Email.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">✏️</div>
+          <div class="service-name">Website Redesign & Revamp</div>
+          <p class="service-desc">
+            Transforming your old, outdated, or slow website
+            into a premium, responsive, and modern
+            web experience.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">🛍️</div>
+          <div class="service-name">Full-Scale E-Commerce Stores</div>
+          <p class="service-desc">
+            Complete online stores with secure checkout,
+            payment gateways, order tracking,
+            and admin panel.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">👤</div>
+          <div class="service-name">Personal Portfolio Websites</div>
+          <p class="service-desc">
+            Sleek, responsive portfolio sites for freelancers,
+            students, and professionals to showcase
+            their work and skills.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">💻</div>
+          <div class="service-name">Full Business Websites</div>
+          <p class="service-desc">
+            Multi-page professional websites for any business
+            — with contact forms, maps, services pages,
+            and mobile-friendly design.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon">🔧</div>
+          <div class="service-name">Bug Fixing & Maintenance</div>
+          <p class="service-desc">
+            Fixing broken layouts, unresponsive CSS,
+            JavaScript errors, or updating content
+            on your existing website quickly.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── PROJECTS ────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="sec-label">What I've built</div>
+      <h2 class="sec-title">Projects</h2>
+      <p class="sec-sub">
+        Here are some of my recent projects.
+      </p>
+      <div class="projects-grid">
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="0">
+          <span class="proj-icon">🛒</span>
+          <div class="proj-name">CampusMart</div>
+          <p class="proj-desc">
+            Full ecommerce marketplace with multi-store support,
+            Stripe payments, live order tracking,
+            QR codes, admin panel, and email notifications.
+          </p>
+          <div class="proj-techs">
+            <span class="proj-tech">Laravel</span>
+            <span class="proj-tech">PHP</span>
+            <span class="proj-tech">MySQL</span>
+            <span class="proj-tech">Stripe</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://campusmartvendor.kesug.com/" target="_blank" rel="noopener" class="proj-link primary">Live Demo ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+          <span class="proj-icon">🤖</span>
+          <div class="proj-name">Aurora AI</div>
+          <p class="proj-desc">
+            AI-powered study assistant with real-time chat,
+            PDF & document analyzer, quiz generator,
+            notes manager, and personal dashboard.
+          </p>
+          <div class="proj-techs">
+            <span class="proj-tech">React</span>
+            <span class="proj-tech">Node.js</span>
+            <span class="proj-tech">Gemini API</span>
+            <span class="proj-tech">SQLite</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://aurora-ai-xi.vercel.app" target="_blank" rel="noopener noreferrer" class="proj-link primary">Live Demo ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="200">
+          <span class="proj-icon">🚗</span>
+          <div class="proj-name">RideSync</div>
+          <p class="proj-desc">
+            Uber/InDrive-style ride booking desktop app
+            with 3 panels — Admin, Rider, and Customer.
+            Full GUI with ride booking and management.
+          </p>
+          <div class="proj-techs">
+            <span class="proj-tech">Python</span>
+            <span class="proj-tech">Tkinter</span>
+            <span class="proj-tech">MySQL</span>
+          </div>
+          <div class="proj-links">
+            <a href="ridesync.html" class="proj-link primary">Screenshots ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="300">
+          <span class="proj-icon">🎮</span>
+          <div class="proj-name">Room Escape Game</div>
+          <p class="proj-desc">
+            Multi-level Windows escape game with login system,
+            leaderboard, enemies, power-ups, and riddle puzzles
+            — built entirely in C# with custom level design.
+          </p>
+          <div class="proj-techs">
+            <span class="proj-tech">C#</span>
+            <span class="proj-tech">.NET</span>
+            <span class="proj-tech">Windows Forms</span>
+            <span class="proj-tech">SQLite</span>
+          </div>
+          <div class="proj-links">
+            <a href="escape-game.html" class="proj-link primary">Screenshots ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="400">
+          <span class="proj-icon">✂️</span>
+          <div class="proj-name">Blackwood Barber Co.</div>
+          <p class="proj-desc">
+            Premium, fully responsive landing page for a barber shop
+            featuring smooth scrolling, modern typography, and a sticky nav.
+          </p>
+          <div class="proj-techs">
+            <span class="proj-tech">HTML</span>
+            <span class="proj-tech">CSS</span>
+            <span class="proj-tech">JavaScript</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://landing-page-husnaindev.vercel.app/" target="_blank" rel="noopener noreferrer" class="proj-link primary">Live Demo ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ───────────────────────────── -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="sec-label">Who I am</div>
+      <h2 class="sec-title">HI, I'M HUSNAIN</h2>
+      <p class="about-location">📍 Faisalabad, Pakistan.</p>
+
+      <div class="about-inner">
+        <div class="about-desc">
+          <p>
+            I'm a CS student and developer who builds
+            real, working products — from AI-powered apps
+            to full ecommerce platforms. Every project I
+            build solves a real problem.
+          </p>
+          <p>
+            When I'm not coding, I'm learning new technologies
+            and pushing my limits — because great software
+            should be accessible to everyone.
+          </p>
+        </div>
+
+        <div class="about-stats" data-aos="fade-left">
+          <div class="stat-box">
+            <div class="stat-num">10<span>+</span></div>
+            <div class="stat-lbl">Projects Built</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">1<span>+</span></div>
+            <div class="stat-lbl">Years Experience</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">5<span>+</span></div>
+            <div class="stat-lbl">Technologies</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">∞</div>
+            <div class="stat-lbl">Curiosity</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── PROCESS ─────────────────────────── -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="sec-label">How it works</div>
+      <h2 class="sec-title">My Work Process</h2>
+      <p class="sec-sub">
+        A simple, clear process from first message
+        to final delivery — no confusion, no surprises.
+      </p>
+
+      <div class="process-grid">
+        <div class="process-step" data-aos="fade-up" data-aos-delay="0">
+          <div class="process-num">01</div>
+          <div class="process-title">Discuss</div>
+          <p class="process-desc">
+            You share your idea, goals, and any design
+            preferences. I ask the right questions
+            to understand exactly what you need.
+          </p>
+        </div>
+
+        <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+          <div class="process-num">02</div>
+          <div class="process-title">Plan & Build</div>
+          <p class="process-desc">
+            I outline the timeline and start building.
+            You get updates along the way so you're
+            never left wondering what's happening.
+          </p>
+        </div>
+
+        <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+          <div class="process-num">03</div>
+          <div class="process-title">Review</div>
+          <p class="process-desc">
+            You review the work and share feedback.
+            I make revisions until you're fully
+            happy with the result.
+          </p>
+        </div>
+
+        <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+          <div class="process-num">04</div>
+          <div class="process-title">Launch</div>
+          <p class="process-desc">
+            Final delivery with full source files.
+            Your website goes live and is 100% yours
+            to use and grow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── FAQ ──────────────────────────── -->
+  <section id="faq">
+    <div class="container">
+      <div class="sec-label">Common Questions</div>
+      <h2 class="sec-title">FAQ</h2>
+
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            HOW LONG DOES A WEBSITE TAKE TO BUILD?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A simple landing page takes 3–4 days.
+              A full business website takes 2–3 weeks.
+              An ecommerce store takes 3–4 weeks depending
+              on the scope and requirements.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            WHAT DO YOU NEED FROM ME TO GET STARTED?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Just tell me what you need — your business name,
+              what services you offer, and any design preferences.
+              If you have a logo or images, share those too.
+              I'll handle everything else.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            DO YOU PROVIDE SOURCE FILES AFTER THE PROJECT?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes — after the project is complete and payment
+              is done, you get full source code and files.
+              The website is 100% yours.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            CAN YOU REDESIGN MY EXISTING WEBSITE?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolutely! Share your current website link —
+              I'll analyze it and rebuild it with a modern,
+              fast, and mobile-friendly design while keeping
+              your existing content.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            DO YOU WORK WITH CLIENTS ONLINE?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes — I work with clients anywhere in Pakistan
+              and internationally via WhatsApp, email, or
+              video call. Everything is handled online
+              smoothly.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            WHAT IS YOUR PAYMENT METHOD?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              For international clients, I accept payments via Whop (Credit Cards/Apple Pay), Direct Bank Transfer. 
+              For local clients, I accept SadaPay, NayaPay, JazzCash, and Direct Bank Transfer.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ──────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="sec-label">Get In Touch</div>
+          <h2 class="sec-title">Let's Build Something Together</h2>
+          <p class="sec-sub" style="margin: 0 auto">
+            Have a project or just want to say hi?
+            Send me a message — I'll get back to you soon.
+          </p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-card-label">EMAIL</div>
+              <a href="mailto:ha03400822619@gmail.com" class="contact-card-link">ha03400822619@gmail.com</a>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-label">LOCATION</div>
+              <div class="contact-card-text">Faisalabad, Pakistan</div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-label">WHATSAPP</div>
+              <div class="contact-card-text">Phone Protected</div>
+            </div>
+          </div>
+        </div>
+
+        <!--
+      action mein apna Formspree link daalo
+      Formspree tumhara message tumhari email pe bhejega
+    -->
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+
+          <!-- Yeh input FORM KE ANDAR hona chahiye -->
+          <input type="hidden" name="access_key" value="b29e8347-b4e5-4bd1-b044-c92fb3f943f4">
+
+          <input type="hidden" name="subject" value="New Message — Portfolio">
+
+          <!-- Honeypot — bots fill this; real users never see it -->
+          <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="form-group">
+            <label class="form-label">YOUR NAME</label>
+            <input type="text" name="name" class="form-input" placeholder="John Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">EMAIL ADDRESS</label>
+            <input type="email" name="email" class="form-input" placeholder="john@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">MESSAGE</label>
+            <textarea name="message" class="form-input form-textarea" placeholder="Tell me about your project..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="form-btn" id="formSubmitBtn">
+            Send Message →
+          </button>
+
+          <!-- Success message — by default hidden -->
+          <div class="form-success" id="formSuccess">
+            ✅ Message sent! I'll get back to you soon.
+          </div>
+          <div class="form-error" id="formError"></div>
+
+        </form>
+
+        <!-- Social links neeche -->
+        <div class="contact-socials">
+          <a href="mailto:ha03400822619@gmail.com" class="social-link">
+            Email
+          </a>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- ─── FOOTER TOP ───────────────────────── -->
+  <section class="footer-top">
+    <div class="container footer-top-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">H<span>.</span>dev</div>
+        <p>Building digital experiences that matter.
+          Based in Pakistan, working with the world.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>NAVIGATION</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-links">
+        <h3>SERVICES</h3>
+        <a href="#services">High-Converting Landing Pages</a>
+        <a href="#services">Website Redesign & Revamp</a>
+        <a href="#services">Full-Scale E-Commerce Stores</a>
+        <a href="#services">Personal Portfolio Websites</a>
+        <a href="#services">Full Business Websites</a>
+        <a href="#services">Bug Fixing & Maintenance</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────── -->
+  <footer>
+    <p class="footer-copy">© 2026 <strong>H.dev</strong> — Husnain. All rights reserved.</p>
+  </footer>
+
+  <!--
+    AOS Library JS — body ke bilkul end mein
+    pehle HTML load ho, phir JS chale
+  -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!--
+    Apni JS file link kar rahe hain
+    src="script.js" matlab same folder mein script.js
+  -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

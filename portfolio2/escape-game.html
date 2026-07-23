@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Escape Game Screenshots - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .screenshots-container {
+      padding: 100px 20px 50px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-color);
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 30px;
+      transition: color 0.3s;
+    }
+    .back-btn:hover {
+      color: var(--primary-color);
+    }
+    .project-header {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .project-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #bb86fc, #a26bfa);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+    .project-header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    
+    .section-title {
+      font-size: 1.8rem;
+      margin: 60px 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-color);
+    }
+    
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    .gallery-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+    
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .gallery-caption {
+      padding: 15px 20px;
+      font-size: 1.1rem;
+      color: var(--text-color);
+      text-align: center;
+      font-weight: 500;
+      background: var(--nav-bg);
+    }
+  </style>
+</head>
+<body>
+  
+  <nav id="navbar" class="scrolled">
+    <div class="nav-container">
+      <div class="logo">HA</div>
+      <ul class="nav-links">
+        <li><a href="index.html#projects" class="nav-link">← Back to Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="screenshots-container">
+    <a href="index.html#projects" class="back-btn">← Back to Projects</a>
+    
+    <div class="project-header">
+      <h1>Room Escape Game</h1>
+      <p>A multi-level Windows desktop game built entirely with C#, .NET, and Windows Forms.</p>
+    </div>
+
+    <!-- Project Features Section Added from Report -->
+    <div style="background: var(--card-bg); padding: 30px; border-radius: 12px; margin-bottom: 50px; border: 1px solid var(--border-color); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      <h3 style="color: var(--text-color); margin-bottom: 20px; font-size: 1.5rem;">🎮 Game Features & Architecture</h3>
+      <ul style="color: var(--text-muted); line-height: 1.8; margin-left: 20px; font-size: 1.05rem;">
+        <li><strong>Core Tech:</strong> Developed in C# using Windows Forms (.NET) and System.Drawing for graphics.</li>
+        <li><strong>OOP Architecture:</strong> Extensively uses Encapsulation, Inheritance, Polymorphism (e.g., Enemy AI behavior), and Composition.</li>
+        <li><strong>Database Integration:</strong> Uses SQL Server LocalDB for persistent data storage, including User Authentication (Login/Registration) and Global Leaderboards.</li>
+        <li><strong>Gameplay Mechanics:</strong> Features Player animations, Enemy AI with collision detection, interactive puzzles/riddles, power-ups, and a life/health system.</li>
+        <li><strong>Game Flow:</strong> Includes multiple difficulty levels, settings management, and pause/resume functionality.</li>
+      </ul>
+    </div>
+
+    <h2 class="section-title">Starting the Game</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/loadingstartingimg.png" alt="Loading Screen">
+        <div class="gallery-caption">Game Loading / Starting Screen</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/howplayimg3.png" alt="How to Play">
+        <div class="gallery-caption">How to Play & Instructions</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Gameplay & Levels</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/escapegameimg1.png" alt="Gameplay Scene 1">
+        <div class="gallery-caption">Main Menu / Game Interface</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/img2crop.png" alt="Gameplay Scene 2">
+        <div class="gallery-caption">In-Game UI and Player Stats</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/level1img.png" alt="Level 1">
+        <div class="gallery-caption">Level 1: The Beginning</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/level2img.png" alt="Level 2">
+        <div class="gallery-caption">Level 2: Increasing Difficulty</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/level3.png" alt="Level 3">
+        <div class="gallery-caption">Level 3: The Final Challenge</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Puzzles & Completion</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/unlocklvl3keyimg.png" alt="Unlocking Level 3 Key">
+        <div class="gallery-caption">Finding the Key for Level 3</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/level3completewincode.png" alt="Level 3 Win Code">
+        <div class="gallery-caption">Solving the Puzzle (Win Code)</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/escapeddoneimg.png" alt="Game Completed">
+        <div class="gallery-caption">Room Escaped! (Victory Screen)</div>
+      </div>
+      <div class="gallery-item">
+        <img src="braintottedEscapegameimages/leaderboard.png" alt="Leaderboard">
+        <div class="gallery-caption">Global Leaderboard (SQLite Integrated)</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer style="text-align: center; padding: 30px; border-top: 1px solid var(--border-color); margin-top: 50px;">
+    <p style="color: var(--text-muted);">© 2024 Husnain. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

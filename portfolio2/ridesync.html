@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RideSync Screenshots - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .screenshots-container {
+      padding: 100px 20px 50px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-color);
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 30px;
+      transition: color 0.3s;
+    }
+    .back-btn:hover {
+      color: var(--primary-color);
+    }
+    .project-header {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .project-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #bb86fc, #a26bfa);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+    .project-header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    
+    .section-title {
+      font-size: 1.8rem;
+      margin: 60px 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-color);
+    }
+    
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    .gallery-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+    
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .gallery-caption {
+      padding: 15px 20px;
+      font-size: 1.1rem;
+      color: var(--text-color);
+      text-align: center;
+      font-weight: 500;
+      background: var(--nav-bg);
+    }
+  </style>
+</head>
+<body>
+  
+  <nav id="navbar" class="scrolled">
+    <div class="nav-container">
+      <div class="logo">HA</div>
+      <ul class="nav-links">
+        <li><a href="index.html#projects" class="nav-link">← Back to Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="screenshots-container">
+    <a href="index.html#projects" class="back-btn">← Back to Projects</a>
+    
+    <div class="project-header">
+      <h1>RideSync</h1>
+      <p>A complete Ride Booking Desktop Application with dedicated panels for Admins, Drivers, and Riders.</p>
+    </div>
+
+    <!-- General Screenshots -->
+    <h2 class="section-title">General / Onboarding</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="Ridesyncimages/ridesync-1.png" alt="Login Screen">
+        <div class="gallery-caption">Login & Registration Screen</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/ridesync-2.png" alt="Role Selection">
+        <div class="gallery-caption">Role Selection (Rider, Driver, Admin)</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/ridesync-3.png" alt="Welcome Screen">
+        <div class="gallery-caption">Welcome / Onboarding Screen</div>
+      </div>
+    </div>
+
+    <!-- Rider Panel -->
+    <h2 class="section-title">Rider Panel</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/rider.png" alt="Rider Dashboard">
+        <div class="gallery-caption">Rider Dashboard</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/Bookingride.png" alt="Booking Ride">
+        <div class="gallery-caption">Booking a Ride</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/rides.png" alt="Available Rides">
+        <div class="gallery-caption">Browsing Available Rides</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/mybookings.png" alt="My Bookings">
+        <div class="gallery-caption">My Bookings & History</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/reviewsofrider.png" alt="Rider Reviews">
+        <div class="gallery-caption">Submit / View Reviews</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/analytics.png" alt="Rider Analytics">
+        <div class="gallery-caption">Rider Analytics & Stats</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Ridesyncimages/Rider/settings.png" alt="Settings">
+        <div class="gallery-caption">Account Settings</div>
+      </div>
+    </div>
+
+    <!-- Driver Panel -->
+    <h2 class="section-title">Driver Panel</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/Driver/driver.png" alt="Driver Dashboard">
+        <div class="gallery-caption">Driver Dashboard</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/Driver/ridesfind.png" alt="Manage Rides">
+        <div class="gallery-caption">Offering and Managing Rides</div>
+      </div>
+    </div>
+
+    <!-- Admin Panel -->
+    <h2 class="section-title">Admin Panel</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/Adminpanel/admin.png" alt="Admin Dashboard">
+        <div class="gallery-caption">Admin Dashboard Overview</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/Adminpanel/analytics.png" alt="Platform Analytics">
+        <div class="gallery-caption">Platform Analytics & Growth</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/Adminpanel/ridesadmin.png" alt="Manage All Rides">
+        <div class="gallery-caption">Manage All Platform Rides</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/Adminpanel/rides.png" alt="Active Rides">
+        <div class="gallery-caption">Active Rides Monitoring</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/Adminpanel/booking.png" alt="All Bookings">
+        <div class="gallery-caption">Monitor All Bookings</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/Adminpanel/reviews.png" alt="Manage Reviews">
+        <div class="gallery-caption">Manage User Reviews & Feedback</div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align: center; padding: 30px; border-top: 1px solid var(--border-color); margin-top: 50px;">
+    <p style="color: var(--text-muted);">© 2024 Husnain. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
